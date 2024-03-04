@@ -40,3 +40,6 @@ class Calculator(BoxLayout):
 class CalculatorApp(App):
     icon = "icon/calculadora.png"
     def build(self): return Calculator()
+
+if __name__ == "__main__":
+    CalculatorApp().run()
