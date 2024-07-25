@@ -1,4 +1,4 @@
-# Calculcadora-Kivy
+# Calculadora-Kivy
 
 !["Calculadora"](Calculadora.png)
 
@@ -6,7 +6,7 @@ Uma calculadora simples feito utilizando Python e a biblioteca Kivy.
 
 ## Funcionalidades
 
-    Use os operadores básicos e calcule suas contas.
+    Use os operadores básicos e calcule, teste seus conhecimentos.
 
 ## Pré-requisitos
 
@@ -44,12 +44,15 @@ Uma calculadora simples feito utilizando Python e a biblioteca Kivy.
     │
     ├── run.py           # Arquivo principal do aplicativo
     ├── assets/             # Diretório contendo arquivos necessários
-    |   └── scripts/           # Diretório contendo pastas de funções e/ou classes
-    │      ├── main/              # Pasta principal
-    |      |   ├── calculator.kv     # Interface da calculadora
-    |      |   └── calculator.py     # Inicialização e chamadas de entrada
-    |      └── images/         # Diretório contendo images
-    │          └── icon/          # Pasta com ícone da calculadora
+    |   ├── scripts/           # Diretório contendo pastas de funções e/ou classes
+    │   │   ├── main/              # Pasta principal
+    |   |   |   ├── calculator.kv     # Interface da calculadora
+    |   |   |   └── calculator.py     # Chamadas de funções
+    │   |   └── functs/            # Funções necessárias
+    |   |       ├── keyboard.py       # Entrada e saída de keyboard 
+    |   |       └── operations.py     # Tratamento de cálculos
+    |   └── images/         # Diretório contendo images
+    │       └── icon/          # Pasta com ícone da calculadora
     └── requirements.txt  # Arquivo contendo as dependências do Python
 
 ## Contribuições

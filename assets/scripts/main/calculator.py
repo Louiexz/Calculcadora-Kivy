@@ -1,7 +1,7 @@
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
-from ..functs.operacoes import Operadores
-from ..functs.keyboard_functs import KeyboardFuncts
+from assets.scripts.functs.operations import Operadores
+from assets.scripts.functs.keyboard import KeyboardFuncts
 from kivy.core.window import Window
 
 class Calculator(BoxLayout):
